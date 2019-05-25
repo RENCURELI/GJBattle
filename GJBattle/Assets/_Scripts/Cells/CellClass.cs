@@ -6,11 +6,13 @@ public class CellClass : MonoBehaviour
 {
     public static CellClass current;
     public bool selected = false;
+    private LineRenderer line;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        line = GetComponent<LineRenderer>();
+        line.enabled = false;
     }
 
     // Update is called once per frame
@@ -31,15 +33,31 @@ public class CellClass : MonoBehaviour
     /// </summary>
     public void CellCast()
     {
-        //Debug.Log("Casting" + ItemSelect.castCoord);
+        line.enabled = true;
 
         RaycastHit hit;
         Vector3 fwd = ItemSelect.castCoord;
-
-        if (Physics.Raycast(transform.position, fwd, 100f))
+        if (Physics.Raycast(transform.position, fwd, out hit, 100f))
         {
             Debug.Log("Casting");
-            Debug.DrawRay(transform.position, ItemSelect.castCoord, Color.red);
+            //Debug.DrawRay(transform.position, ItemSelect.castCoord, Color.red);
+            
         }
+        line.SetPosition(0, transform.position);
+        line.SetPosition(1, fwd);
+        
+    }
+
+    public void Deselected()
+    {
+        selected = false;
+        line.enabled = false;
+    }
+
+    public void LineOff()
+    {
+        //selected = false;
+        //line.positionCount = 0;
+        line.enabled = false;
     }
 }
