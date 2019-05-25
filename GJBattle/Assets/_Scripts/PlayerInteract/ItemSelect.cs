@@ -35,9 +35,12 @@ public class ItemSelect : MonoBehaviour
             //Cast ray from camera to game world to select Cell
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycast))
             {
-                raycast.collider.GetComponent<CellClass>().CellSelected();
-                selectedCell = raycast.collider.gameObject;
-                ++selectCount;
+                if (raycast.collider.GetComponent<CellClass>().clamped == false)
+                {
+                    raycast.collider.GetComponent<CellClass>().CellSelected();
+                    selectedCell = raycast.collider.gameObject;
+                    ++selectCount;
+                }
             }
         }
 
@@ -50,9 +53,15 @@ public class ItemSelect : MonoBehaviour
             {
                 castCoord = new Vector3(raycast.point.x, raycast.point.y, 0);
                 selectedCell.GetComponent<CellClass>().CellCast();
+                if(selectedCell.GetComponent<CellClass>().clamped == true)
+                {
+                    selectCount = 0;
+                    return;
+                }
             }   
-        }else
-            selectedCell.GetComponent<CellClass>().LineOff(); //Turn off line renderer
+        }//else
+            //selectedCell.GetComponent<CellClass>().LineOff(); //Turn off line renderer
+
     }
 
     /// <summary>

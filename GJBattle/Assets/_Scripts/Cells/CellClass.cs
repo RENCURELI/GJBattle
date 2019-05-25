@@ -47,6 +47,7 @@ public class CellClass : MonoBehaviour
             if(hit.collider.tag != "backGround")
             {
                 Clamp(hit.collider.gameObject);
+                
                 return;
             }
             
