@@ -16,14 +16,21 @@ public class CellClass : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(selected != false)
-        {
-            CellSelected();
-        }
+        
     }
 
-    private void CellSelected()
+    public void CellSelected()
     {
-        Debug.Log(selected);
+        Debug.Log("I am selected");
+        selected = true;
+    }
+
+
+    /// <summary>
+    /// Raycast from cell, used to connect two cells
+    /// </summary>
+    public void CellCast()
+    {
+        Debug.Log("Casting");
     }
 }

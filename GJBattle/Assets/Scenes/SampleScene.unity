@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 409452136}
   - component: {fileID: 409452135}
   - component: {fileID: 409452139}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TestRef
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,6 +256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6c9800c76c8fa444bc2ff0eb31a22fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selected: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,7 +371,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49a9c4e9a59676f42b3a68fd3f7ed710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera: {fileID: 519420031}
 --- !u!1 &764236337
 GameObject:
   m_ObjectHideFlags: 0
