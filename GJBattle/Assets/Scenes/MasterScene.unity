@@ -130,6 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1161467821}
   - component: {fileID: 1161467822}
+  - component: {fileID: 1161467823}
   m_Layer: 0
   m_Name: LUCA M
   m_TagString: Untagged
@@ -150,7 +151,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1441706967}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 144}
 --- !u!212 &1161467822
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -189,7 +190,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5a1ee13b95c5b4141aaf68e84b3fdd8e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8113208, g: 0.79983985, b: 0.79983985, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -199,6 +200,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!111 &1161467823
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161467820}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 613680d9ca0112d42804e44c0e099bc9, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 613680d9ca0112d42804e44c0e099bc9, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1256703156
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,6 +226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1256703157}
   - component: {fileID: 1256703158}
+  - component: {fileID: 1256703159}
   m_Layer: 0
   m_Name: LUCA O
   m_TagString: Untagged
@@ -278,6 +296,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!111 &1256703159
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256703156}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 1dcc7e5fc8eb3bc499d5b4834e5e8f6e, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 1dcc7e5fc8eb3bc499d5b4834e5e8f6e, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1441706966
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,6 +355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1443462192}
   - component: {fileID: 1443462193}
+  - component: {fileID: 1443462194}
   m_Layer: 0
   m_Name: LUCA I
   m_TagString: Untagged
@@ -341,7 +376,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1441706967}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -115.80775}
 --- !u!212 &1443462193
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -380,7 +415,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 21d3564f42cb7bb4c8abd8164a269969, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -390,6 +425,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!111 &1443462194
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443462191}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2c2abb3f22577de4bb894b0dcc21bf9a, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 2c2abb3f22577de4bb894b0dcc21bf9a, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1971449403
 GameObject:
   m_ObjectHideFlags: 0
