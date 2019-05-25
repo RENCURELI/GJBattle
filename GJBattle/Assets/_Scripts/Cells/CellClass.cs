@@ -51,6 +51,12 @@ public class CellClass : MonoBehaviour
     public void Deselected()
     {
         selected = false;
+        line.enabled = false;
+    }
+
+    public void LineOff()
+    {
+        //selected = false;
         //line.positionCount = 0;
         line.enabled = false;
     }

@@ -20,6 +20,7 @@ public class ItemSelect : MonoBehaviour
     private void Update()
     {
         RayCasting();
+        Deselection();
     }
 
     public void RayCasting()
@@ -47,6 +48,15 @@ public class ItemSelect : MonoBehaviour
             }   
         }
         else
+            selectedCell.GetComponent<CellClass>().LineOff();
+    }
+
+    private void Deselection()
+    {
+        if (Input.GetMouseButtonDown(1) && selectCount > 0)
+        {
+            selectCount = 0;
             selectedCell.GetComponent<CellClass>().Deselected();
+        }
     }
 }
