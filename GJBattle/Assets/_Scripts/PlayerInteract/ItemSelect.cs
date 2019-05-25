@@ -44,7 +44,9 @@ public class ItemSelect : MonoBehaviour
             {
                 castCoord = new Vector3(raycast.point.x, raycast.point.y);
                 selectedCell.GetComponent<CellClass>().CellCast();
-            }
+            }   
         }
+        else
+            selectedCell.GetComponent<CellClass>().Deselected();
     }
 }

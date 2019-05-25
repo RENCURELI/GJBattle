@@ -41,8 +41,17 @@ public class CellClass : MonoBehaviour
         {
             Debug.Log("Casting");
             //Debug.DrawRay(transform.position, ItemSelect.castCoord, Color.red);
-            line.SetPosition(0, transform.position);
-            line.SetPosition(1, fwd);
+            
         }
+        line.SetPosition(0, transform.position);
+        line.SetPosition(1, fwd);
+        
+    }
+
+    public void Deselected()
+    {
+        selected = false;
+        //line.positionCount = 0;
+        line.enabled = false;
     }
 }
