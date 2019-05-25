@@ -4,35 +4,59 @@ using UnityEngine;
 
 public class ItemSelect : MonoBehaviour
 {
-    public Camera camera;
+    [SerializeField]
+    private LayerMask Clickable;
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    public GameObject selectedCell;
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        SelectionCast();
-    }
+    private int selectCount = 0;
 
     /// <summary>
-    /// Cast ray to select object
+    /// Coords of mouse ray hit
     /// </summary>
-    void SelectionCast()
-    {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            RaycastHit hit;
-            Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+    public static Vector3 castCoord;
+    
 
-            if (Physics.Raycast(ray, out hit))
+    private void Update()
+    {
+        RayCasting();
+        Deselection();
+    }
+
+    public void RayCasting()
+    {
+        if (Input.GetMouseButtonDown(0) && selectCount < 1)
+        {
+            RaycastHit raycast;
+
+            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycast))
             {
-                Transform objectHit = hit.transform;
-                Debug.Log(objectHit.position + objectHit.name);
+                raycast.collider.GetComponent<CellClass>().CellSelected();
+                selectedCell = raycast.collider.gameObject;
+                ++selectCount;
             }
+        }
+
+        if (Input.GetMouseButton(0) && selectCount >= 1)
+        {
+            RaycastHit raycast;
+
+            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycast))
+            {
+                castCoord = new Vector3(raycast.point.x, raycast.point.y);
+                selectedCell.GetComponent<CellClass>().CellCast();
+            }   
+        }
+        else
+            selectedCell.GetComponent<CellClass>().LineOff();
+    }
+
+    private void Deselection()
+    {
+        if (Input.GetMouseButtonDown(1) && selectCount > 0)
+        {
+            selectCount = 0;
+            selectedCell.GetComponent<CellClass>().Deselected();
         }
     }
 }
