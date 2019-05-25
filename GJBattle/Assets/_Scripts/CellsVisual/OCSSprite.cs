@@ -12,12 +12,41 @@ public class OCSSprite : MonoBehaviour
 	//	Lequelle des trois traits herite ce genome
 	public int spritePosition;
 
+	public SpriteRenderer sprite;
+
+	void Awake()
+	{
+		sprite = gameObject.GetComponent<SpriteRenderer>();;
+	}
+
 	void Start()
     {
-        if (this.gameObject.Tag == "Orbit") 
+        if (this.gameObject.tag == "Orbit") 
 		{
-			spritePosition = gameObject.GetComponentInParent(Genes).traits[0];
+			spritePosition = gameObject.GetComponentInParent<Genes>().traits[0];
+		}
+		else if (this.gameObject.tag == "Core") 
+		{
+			spritePosition = gameObject.GetComponentInParent<Genes>().traits[1];
+		}
+		else if (this.gameObject.tag == "Satellite") 
+		{
+			spritePosition = gameObject.GetComponentInParent<Genes>().traits[2];
+		}
 
+		
+
+		if (spritePosition == 0)
+		{
+			sprite.sprite = traitR;
+		}
+		else if (spritePosition == 1)
+		{
+			sprite.sprite = traitB;
+		}
+		else if (spritePosition == 2)
+		{
+			sprite.sprite = traitG;
 		}
 		
 		//gameObject.GetComponentInParent();

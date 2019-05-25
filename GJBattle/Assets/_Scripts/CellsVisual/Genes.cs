@@ -8,7 +8,7 @@ public class Genes : MonoBehaviour
 	public int[] traits;
 
     //	Je vais donner des traits arbitraire pour les tests
-    void Start()
+    void Awake()
     {
 		traits = new int[3];
 
