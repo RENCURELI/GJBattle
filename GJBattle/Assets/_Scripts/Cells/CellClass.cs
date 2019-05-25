@@ -29,8 +29,8 @@ public class CellClass : MonoBehaviour
     /// <summary>
     /// Raycast from cell, used to connect two cells
     /// </summary>
-    public void CellCast()
+    public static void CellCast()
     {
-        Debug.Log("Casting");
+        Debug.Log("Casting" + ItemSelect.castCoord);
     }
 }
