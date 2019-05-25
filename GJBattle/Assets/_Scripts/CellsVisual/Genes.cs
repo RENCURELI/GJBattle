@@ -12,17 +12,10 @@ public class Genes : MonoBehaviour
     {
 		traits = new int[3];
 
-        traits[0] = 1;
-		traits[1] = 2;
+        traits[0] = 2;
+		traits[1] = 1;
 		traits[2] = 1;
 
-		Debug.Log(traits.ToString());
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
