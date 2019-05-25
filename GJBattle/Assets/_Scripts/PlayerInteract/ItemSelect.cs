@@ -4,35 +4,19 @@ using UnityEngine;
 
 public class ItemSelect : MonoBehaviour
 {
-    public Camera camera;
-
-    // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
+        RaycastHit hit;
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        SelectionCast();
-    }
-
-    /// <summary>
-    /// Cast ray to select object
-    /// </summary>
-    void SelectionCast()
-    {
-        if (Input.GetButtonDown("Fire1"))
+        if(Physics.Raycast(ray, out hit))
         {
-            RaycastHit hit;
-            Ray ray = camera.ScreenPointToRay(Input.mousePosition);
-
-            if (Physics.Raycast(ray, out hit))
+            if(hit.transform != null)
             {
-                Transform objectHit = hit.transform;
-                Debug.Log(objectHit.position + objectHit.name);
+
             }
         }
     }
+
+
 }
