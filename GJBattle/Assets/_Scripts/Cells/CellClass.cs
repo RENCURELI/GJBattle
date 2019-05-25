@@ -29,8 +29,17 @@ public class CellClass : MonoBehaviour
     /// <summary>
     /// Raycast from cell, used to connect two cells
     /// </summary>
-    public static void CellCast()
+    public void CellCast()
     {
-        Debug.Log("Casting" + ItemSelect.castCoord);
+        //Debug.Log("Casting" + ItemSelect.castCoord);
+
+        RaycastHit hit;
+        Vector3 fwd = ItemSelect.castCoord;
+
+        if (Physics.Raycast(transform.position, fwd, 100f))
+        {
+            Debug.Log("Casting");
+            Debug.DrawRay(transform.position, ItemSelect.castCoord, Color.red);
+        }
     }
 }

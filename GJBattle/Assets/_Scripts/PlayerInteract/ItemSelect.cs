@@ -7,6 +7,8 @@ public class ItemSelect : MonoBehaviour
     [SerializeField]
     private LayerMask Clickable;
 
+    public GameObject selectedCell;
+
     private int selectCount = 0;
 
     /// <summary>
@@ -29,6 +31,7 @@ public class ItemSelect : MonoBehaviour
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycast))
             {
                 raycast.collider.GetComponent<CellClass>().CellSelected();
+                selectedCell = raycast.collider.gameObject;
                 ++selectCount;
             }
         }
@@ -40,7 +43,7 @@ public class ItemSelect : MonoBehaviour
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycast))
             {
                 castCoord = new Vector3(raycast.point.x, raycast.point.y);
-                CellClass.CellCast();
+                selectedCell.GetComponent<CellClass>().CellCast();
             }
         }
     }
