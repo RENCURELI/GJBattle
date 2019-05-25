@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class CellClass : MonoBehaviour
 {
+    [SerializeField]
+    private LayerMask clickable;
+
     public static CellClass current;
+    public bool clamped = false;
     public bool selected = false;
     private LineRenderer line;
 
@@ -39,8 +43,12 @@ public class CellClass : MonoBehaviour
         Vector3 fwd = ItemSelect.castCoord;
         if (Physics.Raycast(transform.position, fwd, out hit, 100f))
         {
-            Debug.Log("Casting");
-            //Debug.DrawRay(transform.position, ItemSelect.castCoord, Color.red);
+            Debug.Log("Connect");
+            if(hit.collider.tag != "backGround")
+            {
+                Clamp(hit.collider.gameObject);
+                return;
+            }
             
         }
         line.SetPosition(0, transform.position);
@@ -48,16 +56,37 @@ public class CellClass : MonoBehaviour
         
     }
 
+    /// <summary>
+    /// Manage deselection
+    /// </summary>
     public void Deselected()
     {
         selected = false;
         line.enabled = false;
     }
 
+    /// <summary>
+    /// Turn off line renderer temporarily
+    /// </summary>
     public void LineOff()
     {
-        //selected = false;
-        //line.positionCount = 0;
         line.enabled = false;
+    }
+
+    public void Clamp(GameObject other)
+    {
+        Debug.Log("Clamped");
+        Deselected();
+        clamped = true;
+        other.GetComponent<CellClass>().clamped = true;
+        line.enabled = true;
+
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, other.transform.position, 100f))
+        {
+
+        }
+        line.SetPosition(0, transform.position);
+        line.SetPosition(1, other.transform.position);
     }
 }
