@@ -41,6 +41,7 @@ public class CellClass : MonoBehaviour
             Debug.Log("Connect");
             if(hit.collider.tag != "backGround")
             {
+                this.gameObject.GetComponent<CellSpawn>().parents[1] = new Vector3(hit.collider.transform.position.x, hit.collider.transform.position.y);
                 Clamp(hit.collider.gameObject);
                 
                 return;
