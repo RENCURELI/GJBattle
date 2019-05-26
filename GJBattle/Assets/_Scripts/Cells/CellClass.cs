@@ -9,6 +9,7 @@ public class CellClass : MonoBehaviour
 
     public static CellClass current;
     public bool clamped = false;
+    public bool spawn = false;
     public bool selected = false;
     private LineRenderer line;
 
@@ -17,12 +18,6 @@ public class CellClass : MonoBehaviour
     {
         line = GetComponent<LineRenderer>();
         line.enabled = false;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void CellSelected()
@@ -79,6 +74,7 @@ public class CellClass : MonoBehaviour
         Debug.Log("Clamped");
         Deselected();
         clamped = true;
+        spawn = true;
         other.GetComponent<CellClass>().clamped = true;
         line.enabled = true;
 
@@ -89,5 +85,8 @@ public class CellClass : MonoBehaviour
         }
         line.SetPosition(0, transform.position);
         line.SetPosition(1, other.transform.position);
+
+        if(this.gameObject.GetComponent<CellSpawn>().spawned == true)
+            spawn = false;
     }
 }
