@@ -50,8 +50,8 @@ public class CellSpawn : MonoBehaviour
         for(i = 1; i <= nbSpawn; i++)
         {
             cellDist = 0;
-            
-            for(j = i; j >= 0; j--)
+            AkSoundEngine.PostEvent("Spawn", gameObject);
+            for (j = i; j >= 0; j--)
             {
                 //Debug.Log("J value : " + j);
                 ++cellDist;
@@ -59,6 +59,7 @@ public class CellSpawn : MonoBehaviour
                 mod = cellDist % 2;
                 //Debug.Log("modulo value : " + mod);
                 
+
             }
             if (mod == 0)
             {

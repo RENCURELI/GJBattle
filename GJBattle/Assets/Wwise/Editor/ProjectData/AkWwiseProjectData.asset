@@ -12,14 +12,192 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3cc7741dfac774439f332b1a54b1384, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 54ea1c0a95ffcf4b9fad063e4c5afb11
+    GuidInternal: 
+    m_lastTime: -8586427229055132861
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 06f8deb5f898cf41b32039bfe045d013
+    GuidInternal: 
+    m_lastTime: -8586427229057034457
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: e89f164b467a17458b7a2baf4ca0b10d
+    GuidInternal: 
+    m_lastTime: -8586427152610006379
+    List:
+    - name: Main
+      guid: b5a28ef8c5bb4845a279d185f73f0683
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f25018e3374a804eb4a79260a2f83297
+    GuidInternal: 
+    m_lastTime: -8586427152609891480
+    List:
+    - name: Billy_Destroy
+      guid: 52a026f8fddc6448a8684969ef3b04f1
+      id: 1178007732
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Billy
+        ObjectType: 4
+      - ElementName: Billy_Destroy
+        ObjectType: 3
+      Path: Default Work Unit\Billy\Billy_Destroy
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Billy_Spawn
+      guid: 37f38b656857f549bff6395a3d87f27e
+      id: 1786104067
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Billy
+        ObjectType: 4
+      - ElementName: Billy_Spawn
+        ObjectType: 3
+      Path: Default Work Unit\Billy\Billy_Spawn
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: End_Link
+      guid: 0b24d655505a93439c4201a4e2278218
+      id: 3953235119
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mouse_Control
+        ObjectType: 4
+      - ElementName: Link
+        ObjectType: 4
+      - ElementName: End_Link
+        ObjectType: 3
+      Path: Default Work Unit\Mouse_Control\Link\End_Link
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Select_First
+      guid: 31d4b884b2ec8a439e2d90264823d364
+      id: 3513754826
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mouse_Control
+        ObjectType: 4
+      - ElementName: Select
+        ObjectType: 4
+      - ElementName: Select_First
+        ObjectType: 3
+      Path: Default Work Unit\Mouse_Control\Select\Select_First
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Select_Second
+      guid: 8f18ac973655d948a458d3308fc85334
+      id: 380873892
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mouse_Control
+        ObjectType: 4
+      - ElementName: Select
+        ObjectType: 4
+      - ElementName: Select_Second
+        ObjectType: 3
+      Path: Default Work Unit\Mouse_Control\Select\Select_Second
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Start_Link
+      guid: 2f57748597681a428bea64002b52c922
+      id: 1195226706
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mouse_Control
+        ObjectType: 4
+      - ElementName: Link
+        ObjectType: 4
+      - ElementName: Start_Link
+        ObjectType: 3
+      Path: Default Work Unit\Mouse_Control\Link\Start_Link
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Unselect
+      guid: abb9f27911b1e741a9a7676377008355
+      id: 2893983784
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mouse_Control
+        ObjectType: 4
+      - ElementName: Select
+        ObjectType: 4
+      - ElementName: Unselect
+        ObjectType: 3
+      Path: Default Work Unit\Mouse_Control\Select\Unselect
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 4c2a25b8a9fc1b4a8fbd50fa0c9bfd9b
+    GuidInternal: 
+    m_lastTime: -8586427229057119306
+    List:
+    - name: GP_LinkVelocity
+      guid: 51f7ae295a2d1241a6d8d05a6febb4a3
+      id: 3523739994
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: GP_LinkVelocity
+        ObjectType: 13
+      Path: Default Work Unit\GP_LinkVelocity
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c3eb7234c5015c408e3ca3136ad5b18e
+    GuidInternal: 
+    m_lastTime: -8586427229055172909
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 68f4dab00c1468449863c57da77bebd1
+    GuidInternal: 
+    m_lastTime: -8586427229055162930
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 44e62497a324b74c8b294d4f8254546f
+    GuidInternal: 
+    m_lastTime: -8586427229055147972
+    List: []
+  ExpandedItems:
+  - /Wwise_GJBattle5
+  - /Wwise_GJBattle5/Events
+  - /Wwise_GJBattle5/Events/Default Work Unit
+  - /Wwise_GJBattle5/Events/Default Work Unit/Billy
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

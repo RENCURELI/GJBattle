@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
 	380873892	Select_Second			\Default Work Unit\Mouse_Control\Select\Select_Second	
+	1178007732	Billy_Destroy			\Default Work Unit\Billy\Billy_Destroy	
 	1195226706	Start_Link			\Default Work Unit\Mouse_Control\Link\Start_Link	
+	1786104067	Billy_Spawn			\Default Work Unit\Billy\Billy_Spawn	
 	2893983784	Unselect			\Default Work Unit\Mouse_Control\Select\Unselect	
 	3513754826	Select_First			\Default Work Unit\Mouse_Control\Select\Select_First	
 	3953235119	End_Link			\Default Work Unit\Mouse_Control\Link\End_Link	
@@ -8,18 +10,53 @@ Event	ID	Name			Wwise Object Path	Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3523739994	GP_LinkVelocity			\Default Work Unit\GP_LinkVelocity	
 
+Effect plug-ins	ID	Name	Type				Notes
+	1706684651	Plate_Medium	Wwise RoomVerb			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	9098855	GJB5_GAO_Select_4	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_GAO_Select_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Select\Select_First\GJB5_GAO_Select_4		60744
+	47470827	Destroy_13	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\Destroy_13_D7C7E8CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Billy\Billy_Destroy\Destroy_13		103988
+	51817550	GJB5_GAO_Select_11	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_GAO_Select_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Select\Select_Second\GJB5_GAO_Select_11		28036
 	54501829	GJB5_Link_Drag_OS_01	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_01.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_01		1450
 	78198009	GJB5_Link_Drag_OS_10	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_10.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_10		5150
+	92911710	GJB5_GAO_Select_1	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_GAO_Select_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Select\Select_First\GJB5_GAO_Select_1		127304
+	107942973	GJB5_GAO_Select_13	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_GAO_Select_13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Select\Select_Second\GJB5_GAO_Select_13		22608
+	122557253	GJB5_GAO_Select_6	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_GAO_Select_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Select\Select_First\GJB5_GAO_Select_6		50996
+	164334759	Destroy_12	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\Destroy_12_2303989E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Billy\Billy_Destroy\Destroy_12		94220
+	201597858	GJB5_GAO_Select_15	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_GAO_Select_15_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Select\Select_Second\GJB5_GAO_Select_15		22352
+	222924696	GJB5_GAO_Select_9	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_GAO_Select_9_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Select\Select_Second\GJB5_GAO_Select_9		32092
+	297474318	GJB5_GAO_Select_7	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_GAO_Select_7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Select\Select_First\GJB5_GAO_Select_7		41712
+	315846086	Destroy_17	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\Destroy_17_9BCB89C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Billy\Billy_Destroy\Destroy_17		73120
+	334531292	Spawn_03	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\Spawn_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Billy\Billy_Spawn\Spawn_03		595288
+	342039112	Spawn_01	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\Spawn_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Billy\Billy_Spawn\Spawn_01		594472
 	359014114	GJB5_Link_Drag_OS_02	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_2.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_02		2486
+	363450632	Spawn_11	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\Spawn_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Billy\Billy_Spawn\Spawn_11		590928
+	364594378	Spawn_04	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\Spawn_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Billy\Billy_Spawn\Spawn_04		589532
+	370000456	Spawn_09	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\Spawn_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Billy\Billy_Spawn\Spawn_09		597564
+	375521805	Spawn_06	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\Spawn_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Billy\Billy_Spawn\Spawn_06		591116
+	441196273	GJB5_GAO_Select_10	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_GAO_Select_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Select\Select_Second\GJB5_GAO_Select_10		28660
 	447356796	GJB5_Link_Drag_OS_11	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_11.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_11		3200
+	472455229	Spawn_07	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\Spawn_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Billy\Billy_Spawn\Spawn_07		586640
 	523909014	GJB5_Link_Drag_OS_08	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_8.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_08		3618
 	561053544	GJB5_Link_Drag_OS_05	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_5.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_05		2782
+	568989850	Spawn_10	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\Spawn_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Billy\Billy_Spawn\Spawn_10		592992
+	575409401	Destroy_16	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\Destroy_16_3AF89DB1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Billy\Billy_Destroy\Destroy_16		74908
+	584557708	Spawn_05	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\Spawn_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Billy\Billy_Spawn\Spawn_05		593680
+	600422694	GJB5_GAO_Select_2	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_GAO_Select_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Select\Select_First\GJB5_GAO_Select_2		105884
+	663912970	GJB5_GAO_Select_14	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_GAO_Select_14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Select\Select_Second\GJB5_GAO_Select_14		20056
+	670644099	Spawn_08	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\Spawn_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Billy\Billy_Spawn\Spawn_08		596580
+	690813490	Spawn_02	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\Spawn_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Billy\Billy_Spawn\Spawn_02		588572
+	726541789	GJB5_GAO_Select_5	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_GAO_Select_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Select\Select_First\GJB5_GAO_Select_5		55448
+	734631725	Destroy_15	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\Destroy_15_68987FA8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Billy\Billy_Destroy\Destroy_15		77616
+	801387502	GJB5_GAO_Select_12	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_GAO_Select_12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Select\Select_Second\GJB5_GAO_Select_12		24452
 	863555670	GJB5_Link_Drag_OS_13	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_13.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_13		2990
 	913538107	GJB5_Link_Drag_OS_12	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_12.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_12		2712
 	933140275	GJB5_Link_Drag_OS_03	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_3.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_03		3190
 	944752765	GJB5_Link_Drag_OS_06	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_6.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_06		4384
+	946329576	Destroy_14	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\Destroy_14_2661527C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Billy\Billy_Destroy\Destroy_14		69452
+	952231039	GJB5_GAO_Select_3	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_GAO_Select_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Select\Select_First\GJB5_GAO_Select_3		87012
 	1002466858	GJB5_Link_Drag_OS_09	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_9.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_09		2154
 	1020424071	GJB5_Link_Drag_OS_04	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_4.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_04		4680
+	1021022281	GJB5_GAO_Select_8	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_GAO_Select_8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Select\Select_Second\GJB5_GAO_Select_8		36476
 	1051638708	GJB5_Link_Drag_OS_07	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_7.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_07		4106
 

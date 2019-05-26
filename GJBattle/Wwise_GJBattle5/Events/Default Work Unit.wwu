@@ -65,7 +65,7 @@
 				</Folder>
 				<Folder Name="Billy" ID="{B483A4D4-B5F1-4E04-8BE9-779BDA1E6766}" ShortID="811357860">
 					<ChildrenList>
-						<Event Name="Spawn" ID="{658BF337-5768-49F5-BFF6-395A3D87F27E}">
+						<Event Name="Billy_Spawn" ID="{658BF337-5768-49F5-BFF6-395A3D87F27E}">
 							<ChildrenList>
 								<Action Name="" ID="{F077A7DB-F45B-44B2-96B5-23B8DE39B243}" ShortID="888762129">
 									<ReferenceList>
@@ -119,7 +119,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Destroy" ID="{F826A052-DCFD-4864-A868-4969EF3B04F1}">
+						<Event Name="Billy_Destroy" ID="{F826A052-DCFD-4864-A868-4969EF3B04F1}">
 							<ChildrenList>
 								<Action Name="" ID="{F86CF91D-4B03-4C9E-85D3-BF50E6C6114D}" ShortID="877355540">
 									<PropertyList>

@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BILLY_DESTROY = 1178007732U;
+        static const AkUniqueID BILLY_SPAWN = 1786104067U;
         static const AkUniqueID END_LINK = 3953235119U;
         static const AkUniqueID SELECT_FIRST = 3513754826U;
         static const AkUniqueID SELECT_SECOND = 380873892U;

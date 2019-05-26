@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="94">
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1558835993" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Attenuations\Default Work Unit.wwu" DateLow="1558826128" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Audio Devices\Default Work Unit.wwu" DateLow="1558826128" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Control Surface Sessions\Default Work Unit.wwu" DateLow="1558826128" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Conversion Settings\Default Work Unit.wwu" DateLow="1558826128" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1558824255" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1558826128" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Effects\Default Work Unit.wwu" DateLow="1558826128" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Effects\Factory Effects.wwu" DateLow="1558824255" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Events\Default Work Unit.wwu" DateLow="1558835993" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Game Parameters\Default Work Unit.wwu" DateLow="1558832705" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1558826128" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1558826128" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Mixing Sessions\Default Work Unit.wwu" DateLow="1558826128" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Modulators\Default Work Unit.wwu" DateLow="1558826128" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Presets\Default Work Unit.wwu" DateLow="1558826128" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Queries\Default Work Unit.wwu" DateLow="1558826128" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Queries\Factory Queries.wwu" DateLow="1558824255" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\SoundBanks\Default Work Unit.wwu" DateLow="1558835993" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1558826128" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\States\Default Work Unit.wwu" DateLow="1558826128" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Switches\Default Work Unit.wwu" DateLow="1558826128" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Triggers\Default Work Unit.wwu" DateLow="1558826128" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Virtual Acoustics\Default Work Unit.wwu" DateLow="1558826128" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Wwise_GJBattle5.loup-.wsettings" DateLow="1558841620" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Wwise_GJBattle5.wproj" DateLow="1558826323" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1558886350" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Attenuations\Default Work Unit.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Audio Devices\Default Work Unit.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Control Surface Sessions\Default Work Unit.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Conversion Settings\Default Work Unit.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Effects\Default Work Unit.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Effects\Factory Effects.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Events\Default Work Unit.wwu" DateLow="1558891624" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Game Parameters\Default Work Unit.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Mixing Sessions\Default Work Unit.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Modulators\Default Work Unit.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Presets\Default Work Unit.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Queries\Default Work Unit.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Queries\Factory Queries.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\SoundBanks\Default Work Unit.wwu" DateLow="1558891624" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\States\Default Work Unit.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Switches\Default Work Unit.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Triggers\Default Work Unit.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Virtual Acoustics\Default Work Unit.wwu" DateLow="1558883979" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Wwise_GJBattle5.loup-.wsettings" DateLow="1558890084" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\Wwise_GJBattle5.wproj" DateLow="1558883979" DateHigh="0"/>
 </ValidationCache>

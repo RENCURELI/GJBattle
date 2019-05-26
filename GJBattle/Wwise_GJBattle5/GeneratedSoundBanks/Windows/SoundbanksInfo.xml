@@ -21,13 +21,27 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1178007732" Name="Billy_Destroy" ObjectPath="\Events\Default Work Unit\Billy\Billy_Destroy" DurationType="OneShot" DurationMin="2.569009" DurationMax="2.616852"/>
+				<Event Id="1786104067" Name="Billy_Spawn" ObjectPath="\Events\Default Work Unit\Billy\Billy_Spawn" DurationType="OneShot" DurationMin="2.569009" DurationMax="2.616852"/>
 				<Event Id="3953235119" Name="End_Link" ObjectPath="\Events\Default Work Unit\Mouse_Control\Link\End_Link" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3513754826" Name="Select_First" ObjectPath="\Events\Default Work Unit\Mouse_Control\Select\Select_First" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="380873892" Name="Select_Second" ObjectPath="\Events\Default Work Unit\Mouse_Control\Select\Select_Second" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3513754826" Name="Select_First" ObjectPath="\Events\Default Work Unit\Mouse_Control\Select\Select_First" DurationType="OneShot" DurationMin="0.216917" DurationMax="0.662708"/>
+				<Event Id="380873892" Name="Select_Second" ObjectPath="\Events\Default Work Unit\Mouse_Control\Select\Select_Second" DurationType="OneShot" DurationMin="0.104125" DurationMax="0.189646"/>
 				<Event Id="1195226706" Name="Start_Link" ObjectPath="\Events\Default Work Unit\Mouse_Control\Link\Start_Link" DurationType="Infinite"/>
 				<Event Id="2893983784" Name="Unselect" ObjectPath="\Events\Default Work Unit\Mouse_Control\Select\Unselect" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="9098855" Language="SFX">
+					<ShortName>GJB5_GAO_Select_4.wav</ShortName>
+					<Path>SFX\GJB5_GAO_Select_4_10C4C929.wem</Path>
+				</File>
+				<File Id="47470827" Language="SFX">
+					<ShortName>Destroy_13.wav</ShortName>
+					<Path>SFX\Destroy_13_D7C7E8CB.wem</Path>
+				</File>
+				<File Id="51817550" Language="SFX">
+					<ShortName>GJB5_GAO_Select_11.wav</ShortName>
+					<Path>SFX\GJB5_GAO_Select_11_10C4C929.wem</Path>
+				</File>
 				<File Id="54501829" Language="SFX">
 					<ShortName>GJB5_Link_Drag_LP_01.L.wav</ShortName>
 					<Path>SFX\GJB5_Link_Drag_LP_01.L_10C4C929.wem</Path>
@@ -36,13 +50,77 @@
 					<ShortName>GJB5_Link_Drag_LP_10.L.wav</ShortName>
 					<Path>SFX\GJB5_Link_Drag_LP_10.L_10C4C929.wem</Path>
 				</File>
+				<File Id="92911710" Language="SFX">
+					<ShortName>GJB5_GAO_Select_1.wav</ShortName>
+					<Path>SFX\GJB5_GAO_Select_1_10C4C929.wem</Path>
+				</File>
+				<File Id="107942973" Language="SFX">
+					<ShortName>GJB5_GAO_Select_13.wav</ShortName>
+					<Path>SFX\GJB5_GAO_Select_13_10C4C929.wem</Path>
+				</File>
+				<File Id="122557253" Language="SFX">
+					<ShortName>GJB5_GAO_Select_6.wav</ShortName>
+					<Path>SFX\GJB5_GAO_Select_6_10C4C929.wem</Path>
+				</File>
+				<File Id="164334759" Language="SFX">
+					<ShortName>Destroy_12.wav</ShortName>
+					<Path>SFX\Destroy_12_2303989E.wem</Path>
+				</File>
+				<File Id="201597858" Language="SFX">
+					<ShortName>GJB5_GAO_Select_15.wav</ShortName>
+					<Path>SFX\GJB5_GAO_Select_15_10C4C929.wem</Path>
+				</File>
+				<File Id="222924696" Language="SFX">
+					<ShortName>GJB5_GAO_Select_9.wav</ShortName>
+					<Path>SFX\GJB5_GAO_Select_9_10C4C929.wem</Path>
+				</File>
+				<File Id="297474318" Language="SFX">
+					<ShortName>GJB5_GAO_Select_7.wav</ShortName>
+					<Path>SFX\GJB5_GAO_Select_7_10C4C929.wem</Path>
+				</File>
+				<File Id="315846086" Language="SFX">
+					<ShortName>Destroy_17.wav</ShortName>
+					<Path>SFX\Destroy_17_9BCB89C1.wem</Path>
+				</File>
+				<File Id="334531292" Language="SFX">
+					<ShortName>Spawn_03.wav</ShortName>
+					<Path>SFX\Spawn_03_10C4C929.wem</Path>
+				</File>
+				<File Id="342039112" Language="SFX">
+					<ShortName>Spawn_01.wav</ShortName>
+					<Path>SFX\Spawn_01_10C4C929.wem</Path>
+				</File>
 				<File Id="359014114" Language="SFX">
 					<ShortName>GJB5_Link_Drag_LP_2.L.wav</ShortName>
 					<Path>SFX\GJB5_Link_Drag_LP_2.L_10C4C929.wem</Path>
 				</File>
+				<File Id="363450632" Language="SFX">
+					<ShortName>Spawn_11.wav</ShortName>
+					<Path>SFX\Spawn_11_10C4C929.wem</Path>
+				</File>
+				<File Id="364594378" Language="SFX">
+					<ShortName>Spawn_04.wav</ShortName>
+					<Path>SFX\Spawn_04_10C4C929.wem</Path>
+				</File>
+				<File Id="370000456" Language="SFX">
+					<ShortName>Spawn_09.wav</ShortName>
+					<Path>SFX\Spawn_09_10C4C929.wem</Path>
+				</File>
+				<File Id="375521805" Language="SFX">
+					<ShortName>Spawn_06.wav</ShortName>
+					<Path>SFX\Spawn_06_10C4C929.wem</Path>
+				</File>
+				<File Id="441196273" Language="SFX">
+					<ShortName>GJB5_GAO_Select_10.wav</ShortName>
+					<Path>SFX\GJB5_GAO_Select_10_10C4C929.wem</Path>
+				</File>
 				<File Id="447356796" Language="SFX">
 					<ShortName>GJB5_Link_Drag_LP_11.L.wav</ShortName>
 					<Path>SFX\GJB5_Link_Drag_LP_11.L_10C4C929.wem</Path>
+				</File>
+				<File Id="472455229" Language="SFX">
+					<ShortName>Spawn_07.wav</ShortName>
+					<Path>SFX\Spawn_07_10C4C929.wem</Path>
 				</File>
 				<File Id="523909014" Language="SFX">
 					<ShortName>GJB5_Link_Drag_LP_8.L.wav</ShortName>
@@ -51,6 +129,46 @@
 				<File Id="561053544" Language="SFX">
 					<ShortName>GJB5_Link_Drag_LP_5.L.wav</ShortName>
 					<Path>SFX\GJB5_Link_Drag_LP_5.L_10C4C929.wem</Path>
+				</File>
+				<File Id="568989850" Language="SFX">
+					<ShortName>Spawn_10.wav</ShortName>
+					<Path>SFX\Spawn_10_10C4C929.wem</Path>
+				</File>
+				<File Id="575409401" Language="SFX">
+					<ShortName>Destroy_16.wav</ShortName>
+					<Path>SFX\Destroy_16_3AF89DB1.wem</Path>
+				</File>
+				<File Id="584557708" Language="SFX">
+					<ShortName>Spawn_05.wav</ShortName>
+					<Path>SFX\Spawn_05_10C4C929.wem</Path>
+				</File>
+				<File Id="600422694" Language="SFX">
+					<ShortName>GJB5_GAO_Select_2.wav</ShortName>
+					<Path>SFX\GJB5_GAO_Select_2_10C4C929.wem</Path>
+				</File>
+				<File Id="663912970" Language="SFX">
+					<ShortName>GJB5_GAO_Select_14.wav</ShortName>
+					<Path>SFX\GJB5_GAO_Select_14_10C4C929.wem</Path>
+				</File>
+				<File Id="670644099" Language="SFX">
+					<ShortName>Spawn_08.wav</ShortName>
+					<Path>SFX\Spawn_08_10C4C929.wem</Path>
+				</File>
+				<File Id="690813490" Language="SFX">
+					<ShortName>Spawn_02.wav</ShortName>
+					<Path>SFX\Spawn_02_10C4C929.wem</Path>
+				</File>
+				<File Id="726541789" Language="SFX">
+					<ShortName>GJB5_GAO_Select_5.wav</ShortName>
+					<Path>SFX\GJB5_GAO_Select_5_10C4C929.wem</Path>
+				</File>
+				<File Id="734631725" Language="SFX">
+					<ShortName>Destroy_15.wav</ShortName>
+					<Path>SFX\Destroy_15_68987FA8.wem</Path>
+				</File>
+				<File Id="801387502" Language="SFX">
+					<ShortName>GJB5_GAO_Select_12.wav</ShortName>
+					<Path>SFX\GJB5_GAO_Select_12_10C4C929.wem</Path>
 				</File>
 				<File Id="863555670" Language="SFX">
 					<ShortName>GJB5_Link_Drag_LP_13.L.wav</ShortName>
@@ -68,6 +186,14 @@
 					<ShortName>GJB5_Link_Drag_LP_6.L.wav</ShortName>
 					<Path>SFX\GJB5_Link_Drag_LP_6.L_10C4C929.wem</Path>
 				</File>
+				<File Id="946329576" Language="SFX">
+					<ShortName>Destroy_14.wav</ShortName>
+					<Path>SFX\Destroy_14_2661527C.wem</Path>
+				</File>
+				<File Id="952231039" Language="SFX">
+					<ShortName>GJB5_GAO_Select_3.wav</ShortName>
+					<Path>SFX\GJB5_GAO_Select_3_10C4C929.wem</Path>
+				</File>
 				<File Id="1002466858" Language="SFX">
 					<ShortName>GJB5_Link_Drag_LP_9.L.wav</ShortName>
 					<Path>SFX\GJB5_Link_Drag_LP_9.L_10C4C929.wem</Path>
@@ -75,6 +201,10 @@
 				<File Id="1020424071" Language="SFX">
 					<ShortName>GJB5_Link_Drag_LP_4.L.wav</ShortName>
 					<Path>SFX\GJB5_Link_Drag_LP_4.L_10C4C929.wem</Path>
+				</File>
+				<File Id="1021022281" Language="SFX">
+					<ShortName>GJB5_GAO_Select_8.wav</ShortName>
+					<Path>SFX\GJB5_GAO_Select_8_10C4C929.wem</Path>
 				</File>
 				<File Id="1051638708" Language="SFX">
 					<ShortName>GJB5_Link_Drag_LP_7.L.wav</ShortName>
