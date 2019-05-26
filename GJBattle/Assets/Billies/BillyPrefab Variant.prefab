@@ -34,19 +34,6 @@ MonoBehaviour:
   traitG: {fileID: 21300000, guid: f57346fba2d71654a904f1b571e59462, type: 3}
   spritePosition: 0
   sprite: {fileID: 0}
---- !u!114 &2124031979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8048175235631898252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bc70ae1285751c409505b2e7ea6f790, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  traits: 000000000000000000000000
 --- !u!114 &1770199602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,6 +62,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BillyPrefab Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874556713868225648, guid: cca545f69abf8c64bb57a52af1ba7563,
+        type: 3}
+      propertyPath: m_TagString
+      value: Billy
       objectReference: {fileID: 0}
     - target: {fileID: 5874556713868225651, guid: cca545f69abf8c64bb57a52af1ba7563,
         type: 3}
@@ -166,14 +158,38 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Satellite
       objectReference: {fileID: 0}
+    - target: {fileID: 5874556712530076556, guid: cca545f69abf8c64bb57a52af1ba7563,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874556712530076556, guid: cca545f69abf8c64bb57a52af1ba7563,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874556712941874907, guid: cca545f69abf8c64bb57a52af1ba7563,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874556712941874907, guid: cca545f69abf8c64bb57a52af1ba7563,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874556714124417028, guid: cca545f69abf8c64bb57a52af1ba7563,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874556714124417028, guid: cca545f69abf8c64bb57a52af1ba7563,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cca545f69abf8c64bb57a52af1ba7563, type: 3}
---- !u!1 &8048175235631898252 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5874556713868225648, guid: cca545f69abf8c64bb57a52af1ba7563,
-    type: 3}
-  m_PrefabInstance: {fileID: 4482843633240716028}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8048175234287849846 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5874556712530076554, guid: cca545f69abf8c64bb57a52af1ba7563,

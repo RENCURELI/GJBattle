@@ -12,10 +12,5 @@ public class Genes : MonoBehaviour
     {
 		traits = new int[3];
 
-        traits[0] = 2;
-		traits[1] = 1;
-		traits[2] = 1;
-
-
     }
 }
