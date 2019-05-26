@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	380873892	Select_Second			\Default Work Unit\Mouse_Control\Select\Select_Second	
+	1195226706	Start_Link			\Default Work Unit\Mouse_Control\Link\Start_Link	
+	2893983784	Unselect			\Default Work Unit\Mouse_Control\Select\Unselect	
+	3513754826	Select_First			\Default Work Unit\Mouse_Control\Select\Select_First	
+	3953235119	End_Link			\Default Work Unit\Mouse_Control\Link\End_Link	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3523739994	GP_LinkVelocity			\Default Work Unit\GP_LinkVelocity	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	54501829	GJB5_Link_Drag_OS_01	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_01.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_01		1450
+	78198009	GJB5_Link_Drag_OS_10	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_10.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_10		5150
+	359014114	GJB5_Link_Drag_OS_02	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_2.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_02		2486
+	447356796	GJB5_Link_Drag_OS_11	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_11.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_11		3200
+	523909014	GJB5_Link_Drag_OS_08	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_8.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_08		3618
+	561053544	GJB5_Link_Drag_OS_05	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_5.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_05		2782
+	863555670	GJB5_Link_Drag_OS_13	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_13.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_13		2990
+	913538107	GJB5_Link_Drag_OS_12	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_12.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_12		2712
+	933140275	GJB5_Link_Drag_OS_03	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_3.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_03		3190
+	944752765	GJB5_Link_Drag_OS_06	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_6.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_06		4384
+	1002466858	GJB5_Link_Drag_OS_09	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_9.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_09		2154
+	1020424071	GJB5_Link_Drag_OS_04	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_4.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_04		4680
+	1051638708	GJB5_Link_Drag_OS_07	C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\SFX\GJB5_Link_Drag_LP_7.L_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mouse_Control\Drag_Sound\GJB5_Link_Drag_OS_07		4106
+
