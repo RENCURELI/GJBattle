@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OCSSprite : MonoBehaviour
+public class OCSSpritePure : MonoBehaviour
 {
     //	La selection de sprite utilise pour le visuel des Billy
 	public Sprite traitR;
@@ -23,15 +23,15 @@ public class OCSSprite : MonoBehaviour
     {
         if (this.gameObject.tag == "Orbit") 
 		{
-			spritePosition = gameObject.GetComponentInParent<Genes>().traits[0];
+			spritePosition = gameObject.GetComponentInParent<GenesPure>().traits[0];
 		}
 		else if (this.gameObject.tag == "Core") 
 		{
-			spritePosition = gameObject.GetComponentInParent<Genes>().traits[1];
+			spritePosition = gameObject.GetComponentInParent<GenesPure>().traits[1];
 		}
 		else if (this.gameObject.tag == "Satellite") 
 		{
-			spritePosition = gameObject.GetComponentInParent<Genes>().traits[2];
+			spritePosition = gameObject.GetComponentInParent<GenesPure>().traits[2];
 		}
 
 		
