@@ -31,14 +31,14 @@ public class CellSpawn : MonoBehaviour
             Debug.Log("I am Clamped");
             spawnCoord = (parents[0] + parents[1]) * 0.5f;
             Instantiate(prefab, new Vector3(spawnCoord.x, spawnCoord.y + 50, -12), Quaternion.identity);
-            multiSpawn();
+            multiSpawn(spawnCoord);
             spawned = true;
         }
     }
 
-    public void multiSpawn()
+    public void multiSpawn(Vector3 basePoint)
     {
-        Vector3 origin = spawnCoord;
+        Vector3 origin = basePoint;
         int dist = 10; //X distance from origin cell
         int i, j; //Iterators
         int cellDist = 0; //Used to determine number of cells between 0 and current
@@ -55,11 +55,11 @@ public class CellSpawn : MonoBehaviour
             }
             if(cellDist == 1)
             {
-                Instantiate(prefab, new Vector3(origin.x + dist, origin.y + Random.Range(-10f, 10f), -12), Quaternion.identity);
+                Instantiate(prefab, new Vector3(origin.x + dist, origin.y + Random.Range(40f, 60f), -12), Quaternion.identity);
             }
             else
             {
-                Instantiate(prefab, new Vector3(origin.x - dist, origin.y + Random.Range(-10f, 10f), -12), Quaternion.identity);
+                Instantiate(prefab, new Vector3(origin.x - dist, origin.y + Random.Range(40f, 60f), -12), Quaternion.identity);
             }
         }
     }
