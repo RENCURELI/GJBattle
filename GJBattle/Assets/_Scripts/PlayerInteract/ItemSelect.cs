@@ -8,6 +8,7 @@ public class ItemSelect : MonoBehaviour
     private LayerMask Clickable;
 
     public GameObject selectedCell;
+    public static GameObject newSelection;
 
     private int selectCount = 0;
 
@@ -39,21 +40,33 @@ public class ItemSelect : MonoBehaviour
                 {
                     raycast.collider.GetComponent<CellClass>().CellSelected();
                     selectedCell = raycast.collider.gameObject;
+                    selectedCell.GetComponent<CellSpawn>().parents[0] = new Vector3(selectedCell.transform.position.x, selectedCell.transform.position.y);
                     ++selectCount;
                 }
             }
         }
 
         //Cast ray from camera to game world to Draw Line Renderer
-        if (Input.GetMouseButton(0) && selectCount == 1)
+        if (Input.GetMouseButtonDown(0) && selectCount == 1)
         {
             RaycastHit raycast;
 
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycast))
             {
-                castCoord = new Vector3(raycast.point.x, raycast.point.y, 0);
+                if (raycast.collider.GetComponent<CellClass>().clamped == false && raycast.collider.GetComponent<CellClass>().selected == false)
+                {
+                    raycast.collider.GetComponent<CellClass>().FillParents(raycast);
+                    raycast.collider.GetComponent<CellClass>().Clamp(raycast.collider.gameObject);
+                    selectCount = 0;
+                }
+
+                castCoord = new Vector3(raycast.point.x, raycast.point.y, -12);
                 selectedCell.GetComponent<CellClass>().CellCast();
-                if(selectedCell.GetComponent<CellClass>().clamped == true)
+                if (raycast.collider.tag != "backGround")
+                {
+                    newSelection = raycast.collider.gameObject;
+                }
+                if (selectedCell.GetComponent<CellClass>().clamped == true)
                 {
                     selectCount = 0;
                     return;
