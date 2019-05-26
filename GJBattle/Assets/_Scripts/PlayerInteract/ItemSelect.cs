@@ -39,6 +39,7 @@ public class ItemSelect : MonoBehaviour
                 {
                     raycast.collider.GetComponent<CellClass>().CellSelected();
                     selectedCell = raycast.collider.gameObject;
+                    selectedCell.GetComponent<CellSpawn>().parents[0] = new Vector3(selectedCell.transform.position.x, selectedCell.transform.position.y);
                     ++selectCount;
                 }
             }

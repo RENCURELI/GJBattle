@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - backGround
+  - Orbit
+  - Core
+  - Satellite
   layers:
   - Default
   - TransparentFX
