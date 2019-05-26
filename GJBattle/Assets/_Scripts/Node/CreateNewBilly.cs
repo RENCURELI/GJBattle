@@ -54,7 +54,7 @@ public class CreateNewBilly : MonoBehaviour
 
 			chaos1 = new int[3];
 
-			AkSoundEngine.Postevent("Spawn", gameobject);
+			AkSoundEngine.PostEvent("Spawn", gameObject);
 
 			chaos1[0] = Random.Range (0,3);
 			chaos1[1] = Random.Range (0,3);
