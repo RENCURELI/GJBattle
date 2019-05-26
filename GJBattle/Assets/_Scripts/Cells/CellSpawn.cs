@@ -53,27 +53,29 @@ public class CellSpawn : MonoBehaviour
             
             for(j = i; j >= 0; j--)
             {
-                Debug.Log("J value : " + j);
+                //Debug.Log("J value : " + j);
                 ++cellDist;
-                Debug.Log("cellDist value : " + cellDist);
+                //Debug.Log("cellDist value : " + cellDist);
                 mod = cellDist % 2;
-                Debug.Log("modulo value : " + mod);
+                //Debug.Log("modulo value : " + mod);
                 
             }
             if (mod == 0)
             {
                 Instantiate(prefab, new Vector3(origin.x + dist, origin.y + Random.Range(40f, 60f), -12), Quaternion.identity);
-                Debug.Log(origin);
-                Debug.Log("before dist mod : " + dist);
+                //Debug.Log(origin);
+                //Debug.Log("before dist mod : " + dist);
                 dist = dist * 2;
-                Debug.Log("after dist mod : " + dist);
+                //Debug.Log("after dist mod : " + dist);
             }
             else
             {
+                dist = dist / 2; //Come back to initial value
                 Instantiate(prefab, new Vector3(origin.x - dist, origin.y + Random.Range(40f, 60f), -12), Quaternion.identity);
-                Debug.Log("ERROR");
+                dist = dist * 2; //Go back to modified value
+                //Debug.Log("ERROR");
             }
-            Debug.Log("I value : " + i);
+            //Debug.Log("I value : " + i);
         }
     }
 
