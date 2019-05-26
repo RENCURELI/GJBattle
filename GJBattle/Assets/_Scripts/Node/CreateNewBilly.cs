@@ -54,6 +54,8 @@ public class CreateNewBilly : MonoBehaviour
 
 			chaos1 = new int[3];
 
+			AkSoundEngine.Postevent("Spawn", gameobject);
+
 			chaos1[0] = Random.Range (0,3);
 			chaos1[1] = Random.Range (0,3);
 			chaos1[2] = Random.Range (0,3);
@@ -66,6 +68,7 @@ public class CreateNewBilly : MonoBehaviour
             goa.GetComponent<Genes>().traits[2] = chaos1[2];
 
 
+			
 			
         }
 
