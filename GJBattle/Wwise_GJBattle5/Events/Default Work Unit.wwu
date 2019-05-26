@@ -8,8 +8,28 @@
 						<Folder Name="Select" ID="{D1FE3E44-BA6F-4A47-9B28-27917FFFAFB9}" ShortID="903730897">
 							<ChildrenList>
 								<Event Name="Unselect" ID="{79F2B9AB-B111-41E7-A9A7-676377008355}"/>
-								<Event Name="Select_First" ID="{84B8D431-ECB2-438A-9E2D-90264823D364}"/>
-								<Event Name="Select_Second" ID="{97AC188F-5536-48D9-A458-D3308FC85334}"/>
+								<Event Name="Select_First" ID="{84B8D431-ECB2-438A-9E2D-90264823D364}">
+									<ChildrenList>
+										<Action Name="" ID="{E5E4667D-3627-497B-9F3B-DB266D06D4B2}" ShortID="566318031">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Select_First" ID="{5F7FC5A4-921A-4196-A5C0-CB048DFCD3F6}" WorkUnitID="{E9091B0F-BB02-48DA-96C4-2BCA3D45C145}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Select_Second" ID="{97AC188F-5536-48D9-A458-D3308FC85334}">
+									<ChildrenList>
+										<Action Name="" ID="{5FAB1FF5-7290-4D3F-9C41-CC6C097A3444}" ShortID="1042086435">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Select_Second" ID="{B8C78541-9033-4266-9E44-78E7B24AF952}" WorkUnitID="{E9091B0F-BB02-48DA-96C4-2BCA3D45C145}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Link" ID="{FD4E8DFA-95D7-48B1-9FE4-8E28D6C9E1B3}" ShortID="128013858">
@@ -41,6 +61,85 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Billy" ID="{B483A4D4-B5F1-4E04-8BE9-779BDA1E6766}" ShortID="811357860">
+					<ChildrenList>
+						<Event Name="Spawn" ID="{658BF337-5768-49F5-BFF6-395A3D87F27E}">
+							<ChildrenList>
+								<Action Name="" ID="{F077A7DB-F45B-44B2-96B5-23B8DE39B243}" ShortID="888762129">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Billy_Spawn" ID="{6B5A9837-29A0-4755-9DC0-9A5227B6CF5D}" WorkUnitID="{E9091B0F-BB02-48DA-96C4-2BCA3D45C145}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E8ABA078-3D70-4008-8065-4F8B654F0A1A}" ShortID="911076481">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="Pitch" Type="int32" Value="500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Billy_Spawn" ID="{6B5A9837-29A0-4755-9DC0-9A5227B6CF5D}" WorkUnitID="{E9091B0F-BB02-48DA-96C4-2BCA3D45C145}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{20CABB86-AE08-461F-A174-00AF5EDF23B0}" ShortID="284556614">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="18"/>
+										<Property Name="Pitch" Type="int32" Value="500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Billy_Spawn" ID="{6B5A9837-29A0-4755-9DC0-9A5227B6CF5D}" WorkUnitID="{E9091B0F-BB02-48DA-96C4-2BCA3D45C145}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{98B89E3B-7C30-4FBA-84F8-E33DA525A6C1}" ShortID="853277439">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="24"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Billy_Spawn" ID="{6B5A9837-29A0-4755-9DC0-9A5227B6CF5D}" WorkUnitID="{E9091B0F-BB02-48DA-96C4-2BCA3D45C145}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FA259A47-9FF7-44B6-BA43-F1F59088A2A7}" ShortID="35788414">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="25"/>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Billy_Spawn" ID="{6B5A9837-29A0-4755-9DC0-9A5227B6CF5D}" WorkUnitID="{E9091B0F-BB02-48DA-96C4-2BCA3D45C145}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Destroy" ID="{F826A052-DCFD-4864-A868-4969EF3B04F1}">
+							<ChildrenList>
+								<Action Name="" ID="{F86CF91D-4B03-4C9E-85D3-BF50E6C6114D}" ShortID="877355540">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="40"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Billy_Destroy" ID="{F66B1575-ABA1-4137-A885-596364F454B5}" WorkUnitID="{E9091B0F-BB02-48DA-96C4-2BCA3D45C145}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C917606A-E29E-484B-9479-27244603ECDB}" ShortID="449024963">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Billy_Spawn" ID="{6B5A9837-29A0-4755-9DC0-9A5227B6CF5D}" WorkUnitID="{E9091B0F-BB02-48DA-96C4-2BCA3D45C145}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
