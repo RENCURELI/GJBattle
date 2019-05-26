@@ -342,6 +342,11 @@ PrefabInstance:
       propertyPath: clickable.m_Bits
       value: 256
       objectReference: {fileID: 0}
+    - target: {fileID: 615592995882389957, guid: bbd1e18ba81913c449d79c639f0b7002,
+        type: 3}
+      propertyPath: m_UseWorldSpace
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbd1e18ba81913c449d79c639f0b7002, type: 3}
 --- !u!1 &764236337
