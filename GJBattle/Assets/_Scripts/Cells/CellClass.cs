@@ -18,6 +18,9 @@ public class CellClass : MonoBehaviour
     {
         line = GetComponent<LineRenderer>();
         line.enabled = false;
+        clamped = false;
+        spawn = false;
+        selected = false;
     }
 
     public void CellSelected()

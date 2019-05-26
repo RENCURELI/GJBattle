@@ -30,7 +30,7 @@ public class CellSpawn : MonoBehaviour
         {
             Debug.Log("I am Clamped");
             spawnCoord = (parents[0] + parents[1]) * 0.5f;
-            Instantiate(prefab, new Vector3(spawnCoord.x, spawnCoord.y + 50, -12), Quaternion.identity);
+            Instantiate(prefab, new Vector3(spawnCoord.x, spawnCoord.y + 20, -12), Quaternion.identity);
             multiSpawn(spawnCoord);
             spawned = true;
         }
@@ -62,7 +62,7 @@ public class CellSpawn : MonoBehaviour
             }
             if (mod == 0)
             {
-                Instantiate(prefab, new Vector3(origin.x + dist, origin.y + Random.Range(40f, 60f), -12), Quaternion.identity);
+                Instantiate(prefab, new Vector3(origin.x + dist, origin.y + Random.Range(15f, 25f), -12), Quaternion.identity);
                 //Debug.Log(origin);
                 //Debug.Log("before dist mod : " + dist);
                 dist = dist * 2;
@@ -71,7 +71,7 @@ public class CellSpawn : MonoBehaviour
             else
             {
                 dist = dist / 2; //Come back to initial value
-                Instantiate(prefab, new Vector3(origin.x - dist, origin.y + Random.Range(40f, 60f), -12), Quaternion.identity);
+                Instantiate(prefab, new Vector3(origin.x - dist, origin.y + Random.Range(15f, 25f), -12), Quaternion.identity);
                 dist = dist * 2; //Go back to modified value
                 //Debug.Log("ERROR");
             }
