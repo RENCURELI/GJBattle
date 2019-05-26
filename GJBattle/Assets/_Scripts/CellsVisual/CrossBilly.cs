@@ -29,7 +29,7 @@ public class CrossBilly : MonoBehaviour
     {
         //Debug.Log("Hola hola");
 
-		
+        CrossBreed();
     }
 
 	void Update()
@@ -44,10 +44,13 @@ public class CrossBilly : MonoBehaviour
 	}
 
     // La fonction pour mixer les billy
-    void CrossBreed()
+    public void CrossBreed()
     {
+        //firstBilly = this.gameObject.GetComponent<CellSpawn>().billyParents[0];
+        //secondBilly = this.gameObject.GetComponent<CellSpawn>().billyParents[1];
+
         //	La fonction genere une lotterie pour choisir les traits
-		lottery = new int[3];
+        lottery = new int[3];
 
 			lottery[0] = Random.Range (0,101);
 			lottery[1] = Random.Range (0,101);
@@ -55,8 +58,8 @@ public class CrossBilly : MonoBehaviour
 
 		//	Un billy vierge est cree
 		goa = (GameObject)Instantiate(billy, transform);
-			//	Le profil de gene du nouveau billy
-			goa.AddComponent<Genes>();
+            //	Le profil de gene du nouveau billy
+            //goa.AddComponent<Genes>();
 
 
 		// La methode verifie, trait par trait, quelle parent a leguer ces 
