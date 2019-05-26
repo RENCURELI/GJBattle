@@ -101,7 +101,7 @@ public class CrossBilly : MonoBehaviour
 	//secondBillyT2 = secondBilly.GetComponent<Genes>().traits[1];
 	//firstBillyT3 = firstBilly.GetComponent<Genes>().traits[2];
 	//secondBillyT3 = secondBilly.GetComponent<Genes>().traits[2];
-	}
+
 	
 	
 	//if (firstBillyT1 == secondBillyT1); {}
