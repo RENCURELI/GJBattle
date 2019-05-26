@@ -59,8 +59,7 @@ public class ItemSelect : MonoBehaviour
                     return;
                 }
             }   
-        }//else
-            //selectedCell.GetComponent<CellClass>().LineOff(); //Turn off line renderer
+        }
 
     }
 
