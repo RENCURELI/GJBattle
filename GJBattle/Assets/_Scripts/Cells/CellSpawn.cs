@@ -42,25 +42,38 @@ public class CellSpawn : MonoBehaviour
         int dist = 10; //X distance from origin cell
         int i, j; //Iterators
         int cellDist = 0; //Used to determine number of cells between 0 and current
+        int mod = 0; //Used as intermediate variable for spawn distance determination
         int nbSpawn = 3; //Number of cells to spawn
 
         nbSpawn = Random.Range(2, 5);
 
-        for(i = 0; i <= nbSpawn; ++i)
+        for(i = 1; i <= nbSpawn; i++)
         {
-            for(j= i; j>=0; --j)
+            cellDist = 0;
+            
+            for(j = i; j >= 0; j--)
             {
+                Debug.Log("J value : " + j);
                 ++cellDist;
-                cellDist = cellDist % 2;
+                Debug.Log("cellDist value : " + cellDist);
+                mod = cellDist % 2;
+                Debug.Log("modulo value : " + mod);
+                
             }
-            if(cellDist == 1)
+            if (mod == 0)
             {
                 Instantiate(prefab, new Vector3(origin.x + dist, origin.y + Random.Range(40f, 60f), -12), Quaternion.identity);
+                Debug.Log(origin);
+                Debug.Log("before dist mod : " + dist);
+                dist = dist * 2;
+                Debug.Log("after dist mod : " + dist);
             }
             else
             {
                 Instantiate(prefab, new Vector3(origin.x - dist, origin.y + Random.Range(40f, 60f), -12), Quaternion.identity);
+                Debug.Log("ERROR");
             }
+            Debug.Log("I value : " + i);
         }
     }
 
