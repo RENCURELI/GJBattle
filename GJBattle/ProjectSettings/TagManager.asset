@@ -8,6 +8,7 @@ TagManager:
   - Core
   - Satellite
   - Billy
+  - backGround
   layers:
   - Default
   - TransparentFX

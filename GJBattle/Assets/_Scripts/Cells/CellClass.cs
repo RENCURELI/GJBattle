@@ -108,5 +108,6 @@ public class CellClass : MonoBehaviour
     public void FillParents(RaycastHit hit)
     {
         this.gameObject.GetComponent<CellSpawn>().parents[1] = new Vector3(hit.collider.transform.position.x, hit.collider.transform.position.y);
+        this.gameObject.GetComponent<CellSpawn>().billyParents[1] = hit.collider.gameObject;
     }
 }

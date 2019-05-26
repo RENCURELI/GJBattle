@@ -12,16 +12,21 @@ public class CellSpawn : MonoBehaviour
     public Transform prefab;
     public bool spawned = false;
 
+    public GameObject crossBilly;
+
     /// <summary>
     /// Parents coord
     /// </summary>
     public Vector3[] parents;
 
+    public GameObject[] billyParents;
+
     private Vector3 spawnCoord;
 
-    private void Start()
+    private void Awake()
     {
         parents = new Vector3[2];
+        billyParents = new GameObject[2];
     }
 
     public void Spawn()
@@ -30,8 +35,14 @@ public class CellSpawn : MonoBehaviour
         {
             Debug.Log("I am Clamped");
             spawnCoord = (parents[0] + parents[1]) * 0.5f;
+            //this.gameObject.GetComponent<CrossBilly>().CrossBreed();
             Instantiate(prefab, new Vector3(spawnCoord.x, spawnCoord.y + 20, -12), Quaternion.identity);
             multiSpawn(spawnCoord);
+            
+            Debug.Log(billyParents[0]);
+            prefab.GetComponent<CrossBilly>().secondBilly = billyParents[1];
+            prefab.GetComponent<CrossBilly>().firstBilly = Camera.main.GetComponent<ItemSelect>().selectedCell;
+            //this.gameObject.GetComponent<CrossBilly>().CrossBreed();
             spawned = true;
         }
     }

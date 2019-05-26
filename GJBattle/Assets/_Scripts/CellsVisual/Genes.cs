@@ -10,7 +10,7 @@ public class Genes : MonoBehaviour
     //	Je vais donner des traits arbitraire pour les tests
     void Awake()
     {
-		traits = new int[3];
+		
 
     }
 }
