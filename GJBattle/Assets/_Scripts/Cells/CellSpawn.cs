@@ -11,9 +11,9 @@ public class CellSpawn : MonoBehaviour
 {
     public Transform prefab;
     public bool spawned = false;
-    private void FixedUpdate()
+    public void Spawn()
     {
-        if(this.gameObject.GetComponent<CellClass>().spawn == true && spawned != true)
+        if(this.gameObject.GetComponent<CellClass>().spawn == true && spawned == false)
         {
             Debug.Log("I am Clamped");
             Instantiate(prefab, new Vector3(this.transform.position.x, this.transform.position.y + 50, -12), Quaternion.identity);
