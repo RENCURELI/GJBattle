@@ -44,6 +44,7 @@ public class ItemSelect : MonoBehaviour
                     selectedCell.GetComponent<CellSpawn>().billyParents[0] = selectedCell.gameObject;
                     ++selectCount;
                     AkSoundEngine.PostEvent("Select_First", gameObject);
+                    AkSoundEngine.PostEvent("Start_Link", gameObject);
                 }
             }
         }
@@ -61,6 +62,7 @@ public class ItemSelect : MonoBehaviour
                     raycast.collider.GetComponent<CellClass>().Clamp(raycast.collider.gameObject);
                     selectCount = 0;
                     AkSoundEngine.PostEvent("Select_Second", gameObject);
+                    AkSoundEngine.PostEvent("End_Link", gameObject);
                 }
 
                 castCoord = new Vector3(raycast.point.x, raycast.point.y, -12);
