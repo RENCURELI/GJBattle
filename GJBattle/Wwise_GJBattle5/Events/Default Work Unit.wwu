@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E31850F2-4A37-4E80-B4A7-9260A2F83297}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{E31850F2-4A37-4E80-B4A7-9260A2F83297}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Mouse_Control" ID="{2BBB1F00-8DBE-49CB-8A59-BDA79BC6501B}" ShortID="816704955">
+					<ChildrenList>
+						<Folder Name="Select" ID="{D1FE3E44-BA6F-4A47-9B28-27917FFFAFB9}" ShortID="903730897">
+							<ChildrenList>
+								<Event Name="Unselect" ID="{79F2B9AB-B111-41E7-A9A7-676377008355}"/>
+								<Event Name="Select_First" ID="{84B8D431-ECB2-438A-9E2D-90264823D364}"/>
+								<Event Name="Select_Second" ID="{97AC188F-5536-48D9-A458-D3308FC85334}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Link" ID="{FD4E8DFA-95D7-48B1-9FE4-8E28D6C9E1B3}" ShortID="128013858">
+							<ChildrenList>
+								<Event Name="End_Link" ID="{55D6240B-5A50-4393-9C42-01A4E2278218}">
+									<ChildrenList>
+										<Action Name="" ID="{3A87469C-30ED-404B-9403-520D9360E1E0}" ShortID="530267984">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Drag_Sound" ID="{0374CAC5-6B2A-40EB-9A13-539521BD359F}" WorkUnitID="{E9091B0F-BB02-48DA-96C4-2BCA3D45C145}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Start_Link" ID="{8574572F-6897-421A-8BEA-64002B52C922}">
+									<ChildrenList>
+										<Action Name="" ID="{BA3A79F7-B05F-4C9C-8828-099317D24E33}" ShortID="360916325">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Drag_Sound" ID="{0374CAC5-6B2A-40EB-9A13-539521BD359F}" WorkUnitID="{E9091B0F-BB02-48DA-96C4-2BCA3D45C145}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

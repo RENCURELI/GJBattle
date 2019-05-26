@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B8252A4C-FCA9-4A1B-8FBD-50FA0C9BFD9B}" SchemaVersion="94">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{B8252A4C-FCA9-4A1B-8FBD-50FA0C9BFD9B}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="GP_LinkVelocity" ID="{29AEF751-2D5A-4112-A6D8-D05A6FEBB4A3}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

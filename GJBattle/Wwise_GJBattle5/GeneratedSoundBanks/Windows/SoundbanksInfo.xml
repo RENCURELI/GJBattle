@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\loup-\Documents\GitHub\GJBattle\GJBattle\Wwise_GJBattle5\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3953235119" Name="End_Link" ObjectPath="\Events\Default Work Unit\Mouse_Control\Link\End_Link" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3513754826" Name="Select_First" ObjectPath="\Events\Default Work Unit\Mouse_Control\Select\Select_First" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="380873892" Name="Select_Second" ObjectPath="\Events\Default Work Unit\Mouse_Control\Select\Select_Second" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1195226706" Name="Start_Link" ObjectPath="\Events\Default Work Unit\Mouse_Control\Link\Start_Link" DurationType="Infinite"/>
+				<Event Id="2893983784" Name="Unselect" ObjectPath="\Events\Default Work Unit\Mouse_Control\Select\Unselect" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="54501829" Language="SFX">
+					<ShortName>GJB5_Link_Drag_LP_01.L.wav</ShortName>
+					<Path>SFX\GJB5_Link_Drag_LP_01.L_10C4C929.wem</Path>
+				</File>
+				<File Id="78198009" Language="SFX">
+					<ShortName>GJB5_Link_Drag_LP_10.L.wav</ShortName>
+					<Path>SFX\GJB5_Link_Drag_LP_10.L_10C4C929.wem</Path>
+				</File>
+				<File Id="359014114" Language="SFX">
+					<ShortName>GJB5_Link_Drag_LP_2.L.wav</ShortName>
+					<Path>SFX\GJB5_Link_Drag_LP_2.L_10C4C929.wem</Path>
+				</File>
+				<File Id="447356796" Language="SFX">
+					<ShortName>GJB5_Link_Drag_LP_11.L.wav</ShortName>
+					<Path>SFX\GJB5_Link_Drag_LP_11.L_10C4C929.wem</Path>
+				</File>
+				<File Id="523909014" Language="SFX">
+					<ShortName>GJB5_Link_Drag_LP_8.L.wav</ShortName>
+					<Path>SFX\GJB5_Link_Drag_LP_8.L_10C4C929.wem</Path>
+				</File>
+				<File Id="561053544" Language="SFX">
+					<ShortName>GJB5_Link_Drag_LP_5.L.wav</ShortName>
+					<Path>SFX\GJB5_Link_Drag_LP_5.L_10C4C929.wem</Path>
+				</File>
+				<File Id="863555670" Language="SFX">
+					<ShortName>GJB5_Link_Drag_LP_13.L.wav</ShortName>
+					<Path>SFX\GJB5_Link_Drag_LP_13.L_10C4C929.wem</Path>
+				</File>
+				<File Id="913538107" Language="SFX">
+					<ShortName>GJB5_Link_Drag_LP_12.L.wav</ShortName>
+					<Path>SFX\GJB5_Link_Drag_LP_12.L_10C4C929.wem</Path>
+				</File>
+				<File Id="933140275" Language="SFX">
+					<ShortName>GJB5_Link_Drag_LP_3.L.wav</ShortName>
+					<Path>SFX\GJB5_Link_Drag_LP_3.L_10C4C929.wem</Path>
+				</File>
+				<File Id="944752765" Language="SFX">
+					<ShortName>GJB5_Link_Drag_LP_6.L.wav</ShortName>
+					<Path>SFX\GJB5_Link_Drag_LP_6.L_10C4C929.wem</Path>
+				</File>
+				<File Id="1002466858" Language="SFX">
+					<ShortName>GJB5_Link_Drag_LP_9.L.wav</ShortName>
+					<Path>SFX\GJB5_Link_Drag_LP_9.L_10C4C929.wem</Path>
+				</File>
+				<File Id="1020424071" Language="SFX">
+					<ShortName>GJB5_Link_Drag_LP_4.L.wav</ShortName>
+					<Path>SFX\GJB5_Link_Drag_LP_4.L_10C4C929.wem</Path>
+				</File>
+				<File Id="1051638708" Language="SFX">
+					<ShortName>GJB5_Link_Drag_LP_7.L.wav</ShortName>
+					<Path>SFX\GJB5_Link_Drag_LP_7.L_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

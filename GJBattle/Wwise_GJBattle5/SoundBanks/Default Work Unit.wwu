@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4B169FE8-7A46-4517-8B7A-2BAF4CA0B10D}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{4B169FE8-7A46-4517-8B7A-2BAF4CA0B10D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{F88EA2B5-BBC5-4548-A279-D185F73F0683}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Mouse_Control" ID="{2BBB1F00-8DBE-49CB-8A59-BDA79BC6501B}" WorkUnitID="{E31850F2-4A37-4E80-B4A7-9260A2F83297}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
