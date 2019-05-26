@@ -18,6 +18,9 @@ public class CellClass : MonoBehaviour
     {
         line = GetComponent<LineRenderer>();
         line.enabled = false;
+        clamped = false;
+        spawn = false;
+        selected = false;
     }
 
     public void CellSelected()
@@ -33,15 +36,20 @@ public class CellClass : MonoBehaviour
     public void CellCast()
     {
         line.enabled = true;
-
+        GameObject otherCell; //The cell it will be clamped to
         RaycastHit hit;
         Vector3 fwd = ItemSelect.castCoord;
-        if (Physics.Raycast(transform.position, fwd, out hit, 100f))
+        if (Physics.Raycast(transform.position, fwd, out hit))
         {
-            Debug.Log("Connect");
+
+            /*otherCell = ItemSelect.newSelection;
+            this.gameObject.GetComponent<CellSpawn>().parents[1] = new Vector3(otherCell.transform.position.x, otherCell.transform.position.y);
+            Clamp(otherCell);*/
+
+            //Debug.Log("Connect");
             if(hit.collider.tag != "backGround")
             {
-                this.gameObject.GetComponent<CellSpawn>().parents[1] = new Vector3(hit.collider.transform.position.x, hit.collider.transform.position.y);
+                FillParents(hit);
                 Clamp(hit.collider.gameObject);
                 
                 return;
@@ -95,5 +103,10 @@ public class CellClass : MonoBehaviour
            spawn = false;
             return;
         }
+    }
+
+    public void FillParents(RaycastHit hit)
+    {
+        this.gameObject.GetComponent<CellSpawn>().parents[1] = new Vector3(hit.collider.transform.position.x, hit.collider.transform.position.y);
     }
 }
