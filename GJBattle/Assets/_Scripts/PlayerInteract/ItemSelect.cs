@@ -47,13 +47,20 @@ public class ItemSelect : MonoBehaviour
         }
 
         //Cast ray from camera to game world to Draw Line Renderer
-        if (Input.GetMouseButton(0) && selectCount == 1)
+        if (Input.GetMouseButtonDown(0) && selectCount == 1)
         {
             RaycastHit raycast;
 
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycast))
             {
-                castCoord = new Vector3(raycast.point.x, raycast.point.y, 0);
+                if (raycast.collider.GetComponent<CellClass>().clamped == false && raycast.collider.GetComponent<CellClass>().selected == false)
+                {
+                    raycast.collider.GetComponent<CellClass>().FillParents(raycast);
+                    raycast.collider.GetComponent<CellClass>().Clamp(raycast.collider.gameObject);
+                    selectCount = 0;
+                }
+
+                castCoord = new Vector3(raycast.point.x, raycast.point.y, -12);
                 selectedCell.GetComponent<CellClass>().CellCast();
                 if (raycast.collider.tag != "backGround")
                 {
